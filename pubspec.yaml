@@ -1,0 +1,13 @@
+name: platformer101
+description: Simple Platformer Game
+version: 0.0.0
+publish_to: none
+
+environment:
+  sdk: ^2.19.1
+  flutter: ^3.7.1
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flame: ^1.6.0
