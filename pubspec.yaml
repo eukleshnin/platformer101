@@ -11,7 +11,9 @@ dependencies:
   flutter:
     sdk: flutter
   flame: ^1.6.0
+  flame_tiled: ^1.9.1
 
 flutter:
   assets:
     - assets/images/
+    - assets/tiles/
