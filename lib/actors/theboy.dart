@@ -59,7 +59,12 @@ class TheBoy extends SpriteAnimationComponent
   @override
   void update(double dt) {
     super.update(dt);
-    _velocity.x = _horizontalDirection * _moveSpeed;
+    if (doesReachLeftEdge() || doesReachRightEdge()) {
+      _velocity.x = 0;
+    } else {
+      _velocity.x = _horizontalDirection * _moveSpeed;
+    }
+
     position += _velocity * dt;
 
     if ((_horizontalDirection < 0 && scale.x > 0) ||
@@ -76,5 +81,13 @@ class TheBoy extends SpriteAnimationComponent
     } else {
       animation = _runAnimation;
     }
+  }
+
+  bool doesReachLeftEdge() {
+    return position.x <= size.x / 2 && _horizontalDirection < 0;
+  }
+
+  bool doesReachRightEdge() {
+    return position.x >= game.mapWidth - size.x / 2 && _horizontalDirection > 0;
   }
 }
