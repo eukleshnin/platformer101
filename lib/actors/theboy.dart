@@ -6,7 +6,7 @@ import '../game.dart';
 
 class TheBoy extends SpriteAnimationComponent
     with KeyboardHandler, HasGameRef<PlatformerGame> {
-  final double _move_speed = 300;
+  final double _moveSpeed = 300;
 
   int _horizontalDirection = 0;
   final Vector2 _velocity = Vector2.zero();
@@ -59,7 +59,7 @@ class TheBoy extends SpriteAnimationComponent
   @override
   void update(double dt) {
     super.update(dt);
-    _velocity.x = _horizontalDirection * _move_speed;
+    _velocity.x = _horizontalDirection * _moveSpeed;
     position += _velocity * dt;
 
     if ((_horizontalDirection < 0 && scale.x > 0) ||
