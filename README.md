@@ -1,16 +1,10 @@
 # platformer101
 
-A new Flutter project.
+This code supports the article [Platformer 101 with Flame Engine. Part 1: Project setup and Player movement](https://medium.com/@eukleshnin/platformer-101-with-flame-engine-4b8fd53d133a)
 
-## Getting Started
+This part covers
+- Flame Game project setup
+- Preparing game assets
+- Adding player character and teach him to run
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+![3](https://user-images.githubusercontent.com/20682389/219971333-50f120a7-d95d-4524-9897-bdb247fc1a74.gif)
