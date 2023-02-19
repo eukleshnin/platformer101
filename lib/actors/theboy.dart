@@ -4,6 +4,7 @@ import 'package:flutter/services.dart';
 
 import '../assets.dart' as Assets;
 import '../game.dart';
+import '../objects/coin.dart';
 import '../objects/platform.dart';
 
 class TheBoy extends SpriteAnimationComponent
@@ -147,6 +148,15 @@ class TheBoy extends SpriteAnimationComponent
 
   bool doesReachRightEdge() {
     return position.x >= game.mapWidth - size.x / 2 && _horizontalDirection > 0;
+  }
+
+  @override
+  void onCollisionStart(
+      Set<Vector2> intersectionPoints, PositionComponent other) {
+    if (other is Coin) {
+      other.collect();
+    }
+    super.onCollisionStart(intersectionPoints, other);
   }
 
   @override
