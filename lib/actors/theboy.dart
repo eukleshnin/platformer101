@@ -9,7 +9,7 @@ import '../objects/platform.dart';
 class TheBoy extends SpriteAnimationComponent
     with KeyboardHandler, CollisionCallbacks, HasGameRef<PlatformerGame> {
   final double _moveSpeed = 300;
-  final double _jumpSpeed = 500;
+  final double _jumpSpeed = 650;
 
   int _horizontalDirection = 0;
   bool _hasJumped = false;
