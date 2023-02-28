@@ -1,16 +1,12 @@
 # platformer101
 
-A new Flutter project.
+Source code for the Platformer 101 with Flame engine series.
 
-## Getting Started
+- [Part 1. Teaching Your Character to Run in Flame](Teaching Your Character to Run in Flame
+  )
+- Part 2. Creating a Flame Game level with Tiled editor
+- Part 3. Using Collisions Detection to Make the Character Jump
+- Part 4. Collecting Coins and Updating User's interface
 
-This project is a starting point for a Flutter application.
+![Game Demo](demo.gif?raw=true "Title")
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
