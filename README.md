@@ -1,6 +1,7 @@
 # platformer101
 
-This code supports the article [Platformer 101 with Flame Engine. Part 1: Project setup and Player movement](https://medium.com/@eukleshnin/platformer-101-with-flame-engine-4b8fd53d133a)
+This code supports the
+article [Part 1. Teaching Your Character to Run in Flame](https://hackernoon.com/teaching-your-character-to-run-in-flame)
 
 This part covers
 - Flame Game project setup
